@@ -1,0 +1,11 @@
+{
+  "name": "com.clippass.host",
+  "description": "Decrypt password from clipboard and send it as a json to Clippass extension",
+  "path": "$HOME/.clippass/clippass_extension_decrypt_clipboard.sh",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://@@EXTENSION_ID@@/"
+  ]
+}
+
+
